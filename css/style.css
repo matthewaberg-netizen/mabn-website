@@ -856,6 +856,43 @@ section {
   margin-bottom: 2px;
 }
 
+.team-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.team-member .detail-label {
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.team-member p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9375rem;
+  margin: 0;
+}
+
+.headshot {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--gold);
+  flex-shrink: 0;
+}
+
+
 .contact-form {
   display: flex;
   flex-direction: column;
